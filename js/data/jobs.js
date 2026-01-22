@@ -17,7 +17,7 @@ const jobs = [
   ],
   responsibilities: [
       'Led business logic development for a 7-month semiconductor MES project, guiding a team of 6 with support from IoT Lead and software architects.',
-      'Selected to lead business implementation for migrating a semiconductor MES system to Critical Manufacturing using Angular and Entity Framework.',
+      'One of two hand-picked developers selected to foster a client relationship for the company\'s first fully independent Critical Manufacturing project.',
       'Integrated employee skillset and project staffing systems via RabbitMQ.',
       'Built and managed Rockwell SCADA infrastructure, deploying eight VM types and documenting repeatable system builds.'
   ],
