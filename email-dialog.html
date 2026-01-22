@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <link rel="icon" type="image/x-icon" href="./img/bitmoji/a41da708-81e9-4ec3-9364-9d8748f7063d-1773a736-14d0-4b05-a560-d86b62d41336-v1.png">
+        <title>Tyler Warner</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet"  type="text/css" href="./css/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet"  type="text/css" href="./css/index.css">
+        <link rel="stylesheet"  type="text/css" href="./css/email-dialog.css">
+    </head>
+    <body>
+        <form id="email-form" class="email-form">
+
+            <div class="sender-details-section">
+                <input id="email-dialog-full-name" 
+                    type="text" 
+                    name="Full Name" 
+                    placeholder="Your first and last name please"
+                    maxlength="50" 
+                    required>
+                <input id="email-dialog-email" 
+                    type="email" 
+                    name="Email" 
+                    placeholder="Your Email" 
+                    maxlength="500"
+                    minlength="25"
+                    required>
+            </div>
+            <div>
+                <textarea name="Message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+        </form>
+    </body>
+</html>

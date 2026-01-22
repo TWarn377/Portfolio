@@ -1,0 +1,6 @@
+$("#jumper").hover(function(){
+    $("#jump-list").slideDown("slow");
+    },
+    function(){
+    $("#jump-list").slideUp("slow");
+});

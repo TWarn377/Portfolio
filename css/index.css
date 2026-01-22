@@ -1,0 +1,415 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+section {
+    padding: 0px 5%;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+h1 + p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 0px 0px 10px 0px;
+    text-align: end;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    margin: 0px;
+    padding: 5%;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.horizontal-list li{
+	display: inline-block;
+}
+
+.horizontal-list li:before{
+	content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color: rgba(0,0,0,0.5);
+	font-size:11px;
+}
+.horizontal-list li:first-child:before {
+	content: '';
+}
+
+.basic-link {
+    margin: auto 5px;
+    color: #ffffff;
+}
+
+.basic-link:hover > *{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3%;
+    width: auto;
+    max-width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    #projects-section {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+
+    #projects-section > div {
+        width: 100% !important;
+    }
+
+    #images {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #hero-content {
+        width: 100%;
+    }
+
+    #job-description {
+        width: max-content !important;
+    }
+
+    #job-preview-link {
+        display: none !important;
+    }
+}
+
+#Hero {
+    justify-content: space-between;
+    height: 85%;
+    width: 100%;
+    background-color: rgb(40, 75, 99);
+    background-image: url("../img/hero/Hero5.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h3 {
+    font-size: 28px;
+}
+
+#hero-image {
+    height: 100%;
+    width: 90%;
+    background-color: rgba(40, 75, 99, 0.9);
+    padding: 0px 5%;
+}
+
+#hero-subtitle > * {
+    display: none;
+}
+
+.indicator {
+    color: #ffffff !important;
+}
+
+.indicator > i {
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.indicator > i:hover {
+    color: #999 !important;
+}
+
+#hero-content {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#job-company {
+    font-family: 'Lobster', cursive;  
+    font-size: 24px;
+    color: #ffffff; 
+}
+
+#job-company::after {
+    content: "\a";
+    white-space: pre;
+}
+
+#job-description {
+    display: none;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0px;
+}
+
+#job-description > ul {
+    margin: 10px 0px;
+}
+
+#job-preview-link {
+    display: none;
+}
+
+#job-preview {
+    max-height: 300px;
+    max-width: 500px;
+}
+
+
+#navbar {
+    background-color: #284B63;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    z-index: 10;
+    width: 90%;
+    height: auto;
+    padding: 1% 5%;
+    font-family: 'Lobster', cursive;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar > * {
+    height: 100%;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+#contact-container * {
+    margin: auto 2vw;
+}
+
+#contact-container a,
+.email-form button {
+    color: #ffffff;
+}
+
+#contact-container a:hover,
+.email-form button {
+    color: #d9d9d9;
+    text-shadow: 1px 3px 6px #3C6E71;
+}
+
+#jumper {
+    text-align: center;
+    color: #ffffff;
+    width: 200px;
+}
+
+#jumper p {
+    font-size: 24px;
+}
+
+#jumper ul {
+    display: none;
+    list-style-type: none;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 1.5px #353535;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+#jumper ul li {
+    margin: 5px;
+}
+
+.jump-link {
+    text-decoration: none;
+    color: #353535;
+}
+
+.jump-link:hover {
+    text-decoration: none;
+    color: #442700;
+    text-shadow: 0px 0px 3px #3c6e717a;
+}
+
+#tools-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tools-section > div {
+    margin-bottom: 20px;
+}
+
+#tools-section ul {
+    list-style-type: none;
+    margin: none;
+}
+
+#tools-section li {
+    margin: 5px;
+}
+
+.tools-h4 + ul {
+    padding: 0px;
+}
+
+.tools-h3 {
+    text-align: center;
+    color: #442700;
+}
+
+.tools-h4 {
+    font-weight: bold;
+    margin: 10px;
+    margin-left: -50px;
+}
+
+#language-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#language-list li {
+    width: 50%;
+    margin: 1em 0;
+}
+
+#projects {
+    display: block;
+    background-color: #3C6E71;
+    height: 800px;
+}
+
+#projects * {
+    background-color: #3C6E71;
+    color: #ffffff;
+}
+
+#projects-heading {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 5%;
+    max-width: 90%;
+}
+
+#projects-title {
+    width: max-content;
+    padding: 0px;
+}
+
+.preview-image {
+    max-width: 260px;
+    max-height: 400px;
+}
+
+#projects-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+#project-text {
+    width: 50%;
+}
+
+#project-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #eee;
+}
+
+#images {
+    margin-left: auto;
+    width: 50%;
+    min-width: 535px;
+}
+
+#images a > *{
+    transform: rotateX(-26deg) rotateZ(0deg) rotateY(-36deg);
+    box-shadow: 3px 3px 6px #353535;
+}
+
+#Journey {
+
+}
+
+#journey-title {
+    color: #3C6E71;
+}
+
+.timeline {
+    margin: 0px -5%;
+}
+
+.timeline > ol > li:not(:last-child)::after {
+    background-color: #3C6E71;
+}
+
+.timeline > ol > li {
+    background-color: #3c6e716c;
+}
+
+.timeline > ol > li > div {
+    border-radius: 8px;
+    padding: 8px;
+    background-color:#442700;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.timeline > ol > li > div > article {
+    padding: 8px;
+    background-color: white;
+    color: #442700;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.timeline > ol > li > div > time {
+    font-family: 'Bebas Neue', cursive;
+}
+

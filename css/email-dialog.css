@@ -1,0 +1,16 @@
+html, body {
+    display: grid;
+    place-items: center;
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(40, 75, 99);
+}
+
+form.email-form {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.email-form > button {
+  all: unset;
+}
