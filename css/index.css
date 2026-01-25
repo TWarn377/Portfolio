@@ -110,11 +110,12 @@ h4 {
     justify-content: space-between;
     height: 85%;
     width: 100%;
-    background-color: rgb(40, 75, 99);
     background-image: url("../img/hero/Hero5.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
 }
 
 #hero h3 {
@@ -124,7 +125,6 @@ h4 {
 #hero-image {
     height: 100%;
     width: 90%;
-    background-color: rgba(40, 75, 99, 0.9);
     padding: 0px 5%;
 }
 
