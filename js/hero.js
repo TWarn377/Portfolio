@@ -57,7 +57,7 @@ function displayJob() {
         $('#job-description').css('max-width', 'max-content');
     changeJobIndicators();}).fadeIn(500);
     // Reset Timer
-    jobTimer = setInterval(nextJob, 10000);
+    jobTimer = setInterval(nextJob, 20000);
 }
 
 function toolsToHTMLList(tools) {

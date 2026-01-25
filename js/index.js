@@ -73,7 +73,7 @@ function dispProjects() {
     $('#project-image-2').attr('alt', projects[projectNum].images[1].alt);
     changeProjectIndicators();}).fadeIn(500);
 
-    projectTimer = setInterval(nextProject, 12500);
+    projectTimer = setInterval(nextProject, 30000);
 }
 
 
