@@ -56,6 +56,7 @@ function displayJob() {
         $('#job-description').css('max-width', '500px'):
         $('#job-description').css('max-width', 'max-content');
     changeJobIndicators();}).fadeIn(500);
+    
     // Reset Timer
     jobTimer = setInterval(nextJob, 20000);
 }
