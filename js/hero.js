@@ -58,7 +58,7 @@ function displayJob() {
     changeJobIndicators();}).fadeIn(500);
     
     // Reset Timer
-    jobTimer = setInterval(nextJob, 20000);
+    jobTimer = setInterval(nextJob, 30000);
 }
 
 function toolsToHTMLList(tools) {
