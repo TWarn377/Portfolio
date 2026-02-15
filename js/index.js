@@ -32,7 +32,7 @@ const projects = [
     title: "Hayes Warner Realty Administration Tools",
     description: "An administration portal to compliment the Hayes Warner Realty Public site. <br><br> This web app is meant to serve as a central location for management to input and track metrics for houses. <br><br> One key feature of the app is that the public website will be able to be managed using the app. The user can choose which houses are displayed on the homepage, and select individual pictures for the homepage.",
     images: [
-        { url: "./img/projects/hwr-app/HWR2.jpg", alt: "The search page, where customers can marvel at the homes the company has worked on."},
+        // { url: "./img/projects/hwr-app/HWR2.jpg", alt: "The search page, where customers can marvel at the homes the company has worked on."},
         { url: "./img/projects/hwr-app/HWRAPP1.png", alt: "A page on the app where you can search for homes."},
     ]},//{
     // title: "Hayes Warner Reality Administration Tools (Original)",
@@ -63,14 +63,18 @@ function dispProjects() {
     $('#title').html(projects[projectNum].title);
     // Display description
     $('#project-description').html(projects[projectNum].description);
-    // Display image1
-    $('#image-link1').attr('href', projects[projectNum].images[0].url);
-    $('#project-image-1').attr('src', projects[projectNum].images[0].url);
-    $('#project-image-1').attr('alt', projects[projectNum].images[0].alt);
-    // Display image 2
-    $('#image-link2').attr('href', projects[projectNum].images[1].url);
-    $('#project-image-2').attr('src', projects[projectNum].images[1].url);
-    $('#project-image-2').attr('alt', projects[projectNum].images[1].alt);
+    // Display Images
+    for(let i = 0; i < 2; i++) {
+        if (image = projects[projectNum].images[i]) {
+            $(`#image-link${i + 1}`).show();
+            $(`#image-link${i + 1}`).attr('href', image.url);
+            $(`#project-image-${i + 1}`).attr('src', image.url);
+            $(`#project-image-${i + 1}`).attr('alt', image.alt);
+        } else {
+            $(`#image-link${i + 1}`).hide();
+        }
+    }
+
     changeProjectIndicators();}).fadeIn(500);
 
     projectTimer = setInterval(nextProject, 30000);
