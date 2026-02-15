@@ -56,16 +56,16 @@ const jobs = [
   title: 'Technology Engineer Intern (2020)',
   tools: [
       { name: 'Bash', url: 'https://www.gnu.org/software/bash/', icon: './img/tools/bash-logo-48.png' },
-      { name: 'Rocket.Chat', url: 'https://rocket.chat/' },
+      { name: 'Rocket.Chat', url: 'https://rocket.chat/' , icon: './img/tools/Rocket-chat.png'},
       { name: 'Docker', url: 'https://www.docker.com/', icon: './img/tools/icons8-docker-48.png'},
-      { name: 'Concourse CI', url: 'https://concourse-ci.org/'},
-      { name: 'Jenkins', url: 'https://www.jenkins.io/'},
+      { name: 'Concourse CI', url: 'https://concourse-ci.org/', icon: './img/tools/concourse-black.png'},
+      { name: 'Jenkins', url: 'https://www.jenkins.io/', icon: './img/tools/icons8-jenkins-48.png'},
   ],
   responsibilities: [
-      'Worked within Test Environment Management team to learn specifics on continuous integraton.',
-      'Created a chatbot to communicate the statuses of environemnts.',
+      'Worked within Test Environment Management team to learn specifics on continuous integration.',
+      'Created a chatbot to communicate the statuses of environments.',
       'Developed a configurable Bash script to clean an on-prem Linux environment and report storage information.',
-      'Containerized a HTML application & built a continuous development pipeline from git to dockerenterprise repository.'
+      'Containerized a HTML application & built a continuous development pipeline from git to docker enterprise repository.'
   ],
   image: '',
   startDate: new Date('8/07/2020'),
@@ -78,8 +78,8 @@ const jobs = [
   companyWebsite: 'https://www.ohio.edu/',
   title: 'Student Web Developer (2019 - 2020)',
   tools: [
-      { name: 'Drupal', url: 'https://www.drupal.org/'},
-      { name: 'CommonSpot', url: 'https://www.paperthin.com/products/commonspot-cloud.cfm'},
+      { name: 'Drupal', url: 'https://www.drupal.org/', icon: './img/tools/Logo_drupal.png'},
+      { name: 'CommonSpot', url: 'https://www.paperthin.com/products/commonspot-cloud.cfm', icon: './img/tools/Ubp_8NY__400x400.jpg' },
       { name: 'Microsoft Office', url: 'https://www.microsoft.com/en-us/microsoft-365/microsoft-office?rtc=1', icon: './img/tools/icons8-microsoft-office-2019-48.png'},
       { name: 'Jira', url: 'https://www.atlassian.com/software/jira?&aceid=&adposition=&adgroup=56999361780&campaign=1439934479&creative=542638230149&device=c&keyword=jira&matchtype=e&network=g&placement=&ds_kids=p34164036185&ds_e=GOOGLE&ds_eid=700000001558501&ds_e1=GOOGLE&gclid=CjwKCAjwt7SWBhAnEiwAx8ZLaoikL4R872wYvWKpa3O58BkulAmgOSq6860nNBIJ5u0YwANYKbiWWBoCwhoQAvD_BwE&gclsrc=aw.ds', icon: './img/tools/icons8-jira-48.png'},
   ],
@@ -98,7 +98,7 @@ const jobs = [
   companyWebsite: 'https://www.maxionwheels.com/',
   title: 'IT Intern (2018- 2019)',
   tools: [
-      { name: 'WinForms', url: 'https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-6.0', },
+      { name: 'WinForms', url: 'https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-6.0', icon: './img/tools/entity-framework.png' },
       { name: 'Microsoft Access', url: 'https://www.microsoft.com/en-us/microsoft-365/access', icon: './img/tools/icons8-microsoft-access-2019-48.png'},
       { name: 'Microsoft Excel', url: 'https://www.microsoft.com/en-us/microsoft-365/excel', icon: './img/tools/icons8-microsoft-excel-2019-48.png'},
       { name: 'Microsoft SQL Server', url: 'https://www.microsoft.com/en-us/sql-server/sql-server-2019', icon: './img/tools/icons8-microsoft-sql-server-48.png'},
