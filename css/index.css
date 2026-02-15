@@ -15,7 +15,7 @@ h1 {
 
 h1 + p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     margin: 0px 0px 10px 0px;
     text-align: end;
 }
@@ -25,6 +25,13 @@ h2 {
     font-size: 48px;
     margin: 0px;
     padding: 5%;
+}
+
+h2 > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    text-align: start;
 }
 
 h3 {
@@ -319,7 +326,7 @@ h4 {
 #projects {
     display: block;
     background-color: #3C6E71;
-    height: 800px;
+    height: auto;
 }
 
 #projects * {
