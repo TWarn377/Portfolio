@@ -10,7 +10,7 @@ const jobs = [
       { name: 'Entity Framework', url: 'https://learn.microsoft.com/en-us/ef/', icon: './img/tools/entity-framework.png' },
       { name: 'TypeScript', url: 'https://www.typescriptlang.org/', icon: './img/tools/icons8-typescript-48.png'},
       { name: 'JavaScript', url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript', icon: './img/tools/icons8-javascript-48.png' },
-      { name: 'MS SQL', url: 'https://www.oracle.com/database/', icon: './img/tools/icons8-oracle-logo-48.png'},
+      { name: 'MS SQL', url: 'https://www.microsoft.com/en-us/sql-server', icon: './img/tools/icons8-oracle-logo-48.png'},
       { name: 'Git/GitHub', url: 'https://git-scm.com/', icon: './img/tools/icons8-git-48.png'},
       { name: 'Azure DevOps', url: 'https://azure.microsoft.com/en-us/products/devops', icon:'./img/tools/Azure Devops.png'},
       { name: 'RabbitMQ', url: 'https://www.rabbitmq.com/', icon:'./img/tools/rabbitmq-logo.svg'},
