@@ -42,7 +42,7 @@ function GenerateIndexTimelineContent() {
 };
 GenerateIndexTimelineContent();
 
-// TIMELINE FUNCTIONALITY TAKEN FROM CodePen.io
+// TIMELINE FUNCTIONALITY TAKEN FROM CodePen.io - Updated to fit website
 (function() {
 
   // VARIABLES
@@ -51,9 +51,9 @@ GenerateIndexTimelineContent();
     arrows = document.querySelectorAll(".timeline .arrows .arrow"),
     arrowPrev = document.querySelector(".timeline .arrows .arrow__prev"),
     arrowNext = document.querySelector(".timeline .arrows .arrow__next"),
-    firstItem = document.querySelector(".timeline li:first-child"),
-    lastItem = document.querySelector(".timeline li:last-child"),
-    xScrolling = 280,
+    firstItem = document.querySelector(".timeline-list > li:first-of-type"),
+    lastItem = document.querySelector(".timeline-list > li:last-of-type"),
+    xScrolling = 460,
     disabledClass = "disabled";
 
   // START
@@ -156,6 +156,7 @@ GenerateIndexTimelineContent();
     document.addEventListener("keydown", (e) => {
       if ((e.which === 37) || (e.which === 39)) {
         const timelineOfTop = timeline.offsetTop;
+        console.log(timeline);
         const y = window.pageYOffset;
         if (timelineOfTop !== y) {
           window.scrollTo(0, timelineOfTop);

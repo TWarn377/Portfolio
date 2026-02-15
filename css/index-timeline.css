@@ -17,6 +17,7 @@ button {
 }
 
 .timeline > ol {
+  margin-left: -25%;
   font-size: 0;
   width: 100vw;
   padding: 400px 0;
@@ -27,7 +28,7 @@ button {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  width: 240px;
+  width: 360px;
   height: 3px;
   background: #fff;
 }
@@ -120,8 +121,10 @@ button {
 }
 
 .timeline-job-tools {
-  margin: 0px;
-  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  margin: 2px -4px;
+  padding: 4px;
   width: 100%;
   display: flex;
   flex-direction: row;
