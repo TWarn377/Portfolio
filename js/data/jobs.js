@@ -16,7 +16,7 @@ const jobs = [
       { name: 'RabbitMQ', url: 'https://www.rabbitmq.com/', icon:'./img/tools/rabbitmq-logo.svg'},
   ],
   responsibilities: [
-      'Led business logic development for a 7-month semiconductor MES project, guiding a team of 6 with support from IoT Lead and software architects.',
+      'Led business logic development for a 7-month industrial MES project, guiding a team of 6 with support from IoT Lead and software architects.',
       'One of two hand-picked developers selected to foster a client relationship for the company\'s first fully independent Critical Manufacturing project.',
       'Integrated employee skillset and project staffing systems via RabbitMQ.',
       'Built and managed Rockwell SCADA infrastructure, deploying eight VM types and documenting repeatable system builds.'
